@@ -1,0 +1,20 @@
+{
+  "name": "wijdoendigitaal-infra",
+  "private": true,
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "preview": "pulumi preview",
+    "up": "pulumi up",
+    "destroy": "pulumi destroy"
+  },
+  "dependencies": {
+    "@pulumi/aws": "^7.22.0",
+    "@pulumi/pulumi": "^3.200.0",
+    "@pulumi/synced-folder": "^0.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.0"
+  }
+}
